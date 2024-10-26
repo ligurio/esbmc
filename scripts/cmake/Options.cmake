@@ -26,6 +26,7 @@ option(ENABLE_SOLIDITY_FRONTEND "Enable Solidity language frontend (default: OFF
 option(ENABLE_GOTO_CONTRACTOR "Enable IBEX in the build (default: OFF)" OFF)
 option(ENABLE_JIMPLE_FRONTEND "Enable Jimple language frontend (default: OFF)" OFF)
 option(ENABLE_PYTHON_FRONTEND "Enable Python language frontend (default: OFF)" OFF)
+option(ENABLE_LUA_FRONTEND "Enable Lua language frontend (default: OFF)" OFF)
 
 #############################
 # SOLVERS

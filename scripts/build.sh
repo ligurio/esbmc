@@ -10,6 +10,7 @@ BASE_ARGS="\
     -DENABLE_SOLIDITY_FRONTEND=On \
     -DENABLE_JIMPLE_FRONTEND=On \
     -DENABLE_PYTHON_FRONTEND=On \
+    -DENABLE_LUA_FRONTEND=On \
     -DCMAKE_INSTALL_PREFIX:PATH=$PWD/release \
 "
 # Must disable old frontend to enable goto contractor. github issue #1110

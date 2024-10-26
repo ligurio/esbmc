@@ -126,6 +126,10 @@ if(ENABLE_PYTHON_FRONTEND)
     add_definitions(-DENABLE_PYTHON_FRONTEND)
 endif()
 
+if(ENABLE_LUA_FRONTEND)
+    add_definitions(-DENABLE_LUA_FRONTEND)
+endif()
+
 if(ENABLE_GOTO_CONTRACTOR)
   add_compile_options(-DENABLE_GOTO_CONTRACTOR)
 endif()
